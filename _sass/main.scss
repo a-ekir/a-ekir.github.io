@@ -19,6 +19,11 @@ body {
   font-size: 48px;
 }
 
+.logo {
+  font-family: "Silkscreen", cursive;
+  font-size: 24px;
+}
+
 ul.topnav {
   list-style-type: none;
   margin: 0;
@@ -37,6 +42,17 @@ ul.topnav li a {
   padding: 7px 8px;
   text-decoration: none;
 }
+
+ul.topnav li.nav-right {
+  float: right;
+  padding-right: 8px;
+}
+
+ul.topnav li.nav-left {
+  float: left;
+  padding-left: 8px;
+}
+
 
 ul.topnav li a:hover:not(.active) {font-weight: 600;}
 
