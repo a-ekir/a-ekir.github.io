@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;1,400&display=swap");
 * {
   box-sizing: border-box;
   font-family: "Poppins", Arial, sans-serif;
@@ -15,7 +15,7 @@ body {
   text-align: left;
   padding: 15px;
   padding-left: 30px;
-  font-weight: 500;
+  font-weight: 400;
   font-size: 48px;
 }
 
@@ -24,7 +24,8 @@ ul.topnav {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #d7d7fc;
+  background-color: #e6e6fa;
+  border-bottom: 1px solid #000;
 }
 
 ul.topnav li {
@@ -35,16 +36,25 @@ ul.topnav li a {
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 7px 8px;
   text-decoration: none;
 }
 
 ul.topnav li a:hover:not(.active) {
-  background-color: #c5c5fc;
+  font-weight: 600;
 }
 
 ul.topnav li a.active {
-  background-color: #f0f0fc;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-weight: 200;
+  font-size: 60px;
+}
+
+hr.solid {
+  border-top: 1px solid #000;
 }
 
 /*# sourceMappingURL=styles.css.map */

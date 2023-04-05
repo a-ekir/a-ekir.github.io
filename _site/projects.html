@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
+    <title>Projects</title>
     <link rel="stylesheet" href="/assets/css/styles.css">
 	<link rel="icon" href="/assets/images/favicon.svg">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
@@ -12,7 +12,17 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
-    {% include navigation.html %}
-    {{ content }}
+    <nav>
+  <ul class="topnav">
+  
+    <li><a href="/" >Home</a></li>
+  
+    <li><a href="/about.html" >About</a></li>
+  
+    <li><a href="/projects.html" class="active">Projects</a></li>
+  
+  </ul>
+</nav>
+    
   </body>
 </html>
