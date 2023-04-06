@@ -1,1 +1,48 @@
-Hello World
+---
+layout: default
+title: Home
+---
+<div class="bg-lavender-lighter">
+  <div class="jumbotron jumbotron-fluid background-image-cover" style="background-image:url(/assets/images/header.png);">
+    <div class="container">
+      <h1 class="banner-title">Hello!</h1>
+      <hr class="solid">
+      <p>A little intro blurb.</p>
+    </div>
+  </div>
+  <div class="container text-dark-gray">
+    <h2 class="txt-light">Interests</h2>
+      <div class="row" style="padding-bottom:40px;">
+        {% for item in site.data.indexcards %}         
+          <div class="col-md-4 col-6">
+            <div class="card border-0 bg-transparent" style="padding-top:15px;">
+              <h5 class="card-title txt-light">{{ item.title }}</h5>
+              <p class="card-text">{{ item.details }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+  </div>
+</div>  
+<div class="bg-lavender-lightest">
+  <div class="container" style="padding-top:20px;padding-bottom:20px;">
+    <div class="row">
+      <div class="col">
+        <div class="card bg-transparent text-center border-dark rounded-0" style="padding:30px">
+          <h3 class="card-title txt-light border-bottom border-dark text-left">Goal</h3>
+          <p class="card-text text-emphasize">Card text</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="bg-lavender-lighter">
+  <div class="container text-dark-gray" style="padding-left:30px;padding-top:20px;">
+    <div class="row">
+      <div class="card bg-transparent border-0">
+        <h2 class="txt-light">Test</h2>
+        <p>Test content test content.</p>
+      </div>
+    </div>
+  </div>
+</div>

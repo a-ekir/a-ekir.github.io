@@ -1,0 +1,102 @@
+@import "fonts";
+
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+body > * {
+  flex-shrink: 0;
+}
+
+.header {
+  background-color: #e6e6fa;
+  text-align: left;
+  padding: 15px;
+  padding-left: 30px;
+  font-weight: 400;
+  font-size: 48px;
+}
+
+.logo {
+  font-family: "Silkscreen", cursive;
+  font-size: 24px;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #e6e6fa;
+  border-bottom: 1px solid #000;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 7px 8px;
+  text-decoration: none;
+}
+
+ul.topnav li.nav-right {
+  float: right;
+  padding-right: 8px;
+}
+
+ul.topnav li.nav-left {
+  float: left;
+  padding-left: 8px;
+}
+
+
+ul.topnav li a:hover:not(.active) {font-weight: 600;}
+
+ul.topnav li a.active {font-weight: 600;}
+
+.banner-title {
+  font-weight: 200;
+  font-size: 60px;
+}
+
+hr.solid {
+  border-top: 1px solid #000;
+}
+
+.div-bottom {
+  flex-grow: 1;
+}
+
+.footer {
+  border-top: 1px solid #000;
+  padding-top: 15px;
+  font-size: 14px;
+}
+
+.bg-lavender {background-color: #e6e6fa;}
+.bg-white {background-color: #fff;}
+.bg-lavender-darker {background-color: #d9d9fa;}
+.bg-lavender-lighter {background-color: #f5f5ff;}
+.bg-lavender-lightest {background-color: #fcfcff;}
+.bg-gray {background-color: #dedee0;}
+
+.text-dark-gray {color: #4f4f4f;}
+
+.txt-light {font-weight: 300;}
+
+.text-emphasize {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 500;
+}
